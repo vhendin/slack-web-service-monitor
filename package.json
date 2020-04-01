@@ -1,0 +1,15 @@
+{
+  "name": "slack-web-service-monitor",
+  "version": "1.0.0",
+  "description": "Pings a web service and reports to a Slack channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "magnus.vhendin@combient.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "superagent": "^5.2.2"
+  }
+}
